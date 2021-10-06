@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#searchInput{
+    width: 300px;
+    padding: 5px;
+}
+
+.tree__child{
+    margin:10px;
+    color: red;
+
+}
+
+.tree__child--leaf{
+    color: green;
+}
+
+.tree__child--search{
+
+    background-color: yellow;
+}
+
+#noresultsFound{
+    display: none;
+}
